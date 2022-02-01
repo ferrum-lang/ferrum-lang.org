@@ -1,6 +1,0 @@
-[book]
-authors = ["Adam Bates"]
-language = "en"
-multilingual = false
-src = "src"
-title = "Ferrum Programming Language"
