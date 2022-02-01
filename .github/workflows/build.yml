@@ -2,11 +2,11 @@ name: Build
 
 on:
   push:
-    tags:
-      - "*"
+    branch:
+      - main
 
 jobs:
-  ebook:
+  build:
     name: Build and deploy
     runs-on: ubuntu-latest
     steps:
