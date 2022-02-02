@@ -44,9 +44,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Generate summary
-        run: ./generate_summary.sh
-
       - name: Generate book from markdown
         run: mdbook build
 
